@@ -111,8 +111,6 @@ body {
 .card-info {
   display: flex;
   align-items: center;
-  /* padding-top: 1.2rem;
-  line-height: 3rem; */
 }
 
 .card img {
@@ -144,4 +142,41 @@ body {
   display: inline;
   font-size: 0.7rem;
   line-height: 1rem;
+}
+
+/* responsive design  */
+
+@media screen and (min-width: 500px) {
+  .container {
+    padding: 2rem 1rem;
+    background-image: url(./images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+  }
+
+  .top-desc {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .main-text {
+    width: 50%;
+    text-align: left;
+  }
+
+  .main-text h1 {
+    font-size: 2rem;
+  }
+
+  /* .reviews {
+  } */
+
+  .rating {
+    display: flex;
+    padding: 1rem;
+  }
+
+  .rating .img-star {
+    margin: 0 1rem;
+  }
 }
