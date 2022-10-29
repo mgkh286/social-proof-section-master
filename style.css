@@ -179,4 +179,10 @@ body {
   .rating .img-star {
     margin: 0 1rem;
   }
+
+  .bottom-desc {
+    background-image: url(./images/bg-pattern-bottom-desktop.svg);
+    flex-direction: row;
+    gap: 15px;
+  }
 }
