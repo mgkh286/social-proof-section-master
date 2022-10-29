@@ -48,7 +48,7 @@ body {
 .container {
   padding: 3rem 2rem;
   min-width: 20rem;
-  background-image: url(/images/bg-pattern-top-mobile.svg);
+  background-image: url(./images/bg-pattern-top-mobile.svg);
   background-repeat: no-repeat;
 }
 
@@ -95,7 +95,7 @@ body {
 
 /* bottom section  */
 .bottom-desc {
-  background-image: url(/images/bg-pattern-bottom-mobile.svg);
+  background-image: url(./images/bg-pattern-bottom-mobile.svg);
   display: flex;
   flex-direction: column;
 }
