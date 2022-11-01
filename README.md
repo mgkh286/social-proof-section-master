@@ -41,20 +41,21 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 ### What I learned
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
-<div class="img-section"></div>
+ <div class="rating rating-3">
+            <div class="img-star">
+              <img src="./images/icon-star.svg" alt="" />
+              <img src="./images/icon-star.svg" alt="" />
+              <img src="./images/icon-star.svg" alt="" />
+              <img src="./images/icon-star.svg" alt="" />
+              <img src="./images/icon-star.svg" alt="" />
+            </div>
 ```
 
 ```css
-.img-section {
-  height: 32vh;
-  width: 100%;
-  background: linear-gradient(
-      hsla(277, 100%, 25%, 0.514) 100%,
-      rgba(255, 255, 255, 0)
-    ),
-    url(images/image-header-mobile.jpg);
-  background-size: cover;
+.bottom-desc {
+  background-image: url(./images/bg-pattern-bottom-mobile.svg);
+  display: flex;
+  flex-direction: column;
 }
 ```
 
